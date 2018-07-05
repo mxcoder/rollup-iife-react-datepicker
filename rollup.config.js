@@ -6,7 +6,7 @@ export default {
     input: 'index.js',
     output: {
         name: 'Datepicker',
-        file: 'dist/bundle.js',
+        file: 'bundle.js',
         format: 'iife'
     },
     external: ['react', 'react-dom', 'moment', 'classnames'],
