@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rollup Test</title>
+    <link rel="stylesheet" href="https://unpkg.com/react-datepicker@1.5.0/dist/react-datepicker.min.css">
+    <script src="https://unpkg.com/react@16.4.1/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/moment@2.22.2/moment.js" crossorigin></script>
+    <script src="https://unpkg.com/classnames@2.2.6/index.js" crossorigin></script>
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+    <h1>React Datepicker "standalone"</h1>
+    <div id="app"></div>
+    <script>
+        ReactDOM.render(React.createElement(Datepicker), document.getElementById('app'))
+    </script>
+</body>
+</html>
